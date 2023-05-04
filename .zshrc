@@ -5,7 +5,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Set mac user name
-export mac_user = james.gong
+export MAC_USER="james.gong"
 
 # Python pyenv setting
 export PYENV_ROOT="$HOME/.pyenv"
@@ -25,7 +25,7 @@ export PATH="$JAVA_HOME/bin:$PATH"
 # export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # pnpm settings
-export PNPM_HOME="/Users/$mac_user/Library/pnpm"
+export PNPM_HOME="/Users/$MAC_USER/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;

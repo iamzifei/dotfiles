@@ -74,7 +74,7 @@
     "Red Component" : 0.90032327175140381,
     "Blue Component" : 0.90032327175140381
   },
-  "Working Directory" : "\/Users\/s720181",
+  "Working Directory" : "\/Users\/james.gong\/Dev",
   "Blinking Cursor" : false,
   "AWDS Window Option" : "Yes",
   "Sync Title" : false,
@@ -91,7 +91,7 @@
     "Blue Component" : 0.35294118523597717
   },
   "Initial Use Transparency" : false,
-  "AWDS Window Directory" : "\/Users\/s720181\/Dev\/iag",
+  "AWDS Window Directory" : "\/Users\/james.gong\/Dev",
   "Columns" : 125,
   "Idle Code" : 0,
   "Mouse Reporting" : true,
@@ -308,7 +308,7 @@
     "Red Component" : 0.54509803921568623,
     "Blue Component" : 0.99215686274509807
   },
-  "Name" : "Default",
+  "Name" : "Personal",
   "Cursor Text Color" : {
     "Green Component" : 1,
     "Red Component" : 1,
