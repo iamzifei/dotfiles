@@ -14,13 +14,19 @@
 1. Select the `Consolas` font from the font list
 
 ## Oh-My-Zsh
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## Homebrew
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## MVN
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
 
 ## PYENV
 ```
@@ -29,7 +35,9 @@ brew install pyenv
 ```
 
 ## PNPM
-`brew install pnpm`
+```
+brew install pnpm
+```
 
 ## JDK
 download from [here](https://corretto.aws/downloads/latest/amazon-corretto-8-aarch64-macos-jdk.pkg)
