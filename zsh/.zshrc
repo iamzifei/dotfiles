@@ -1,6 +1,8 @@
-# Oh My Zsh default setting with theme
-export ZSH="$HOME/.oh-my-zsh"
+# Theme
 ZSH_THEME="pygmalion"
+
+# settings
+export ZSH="$HOME/.oh-my-zsh"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
@@ -32,8 +34,8 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
-# using npm v16 by default
-nvm use v14
+# using npm LTS by default
+nvm use --lts
 
 # functions
 setSSHKeys() {
