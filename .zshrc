@@ -4,8 +4,9 @@ ZSH_THEME="pygmalion"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-# Set mac user name
+# Set mac user name and ssh key, if any
 export MAC_USER="james.gong"
+export SSH_KEY_NAME=""
 
 # Python pyenv setting
 export PYENV_ROOT="$HOME/.pyenv"
@@ -37,7 +38,7 @@ nvm use v14
 # functions
 setSSHKeys() {
   ssh-add -D
-  ssh-add -K $HOME/.ssh/s<key-name>
+  ssh-add -K $HOME/.ssh/$SSH_KEY_NAME
 }
 
 removeSSHKeys() {
