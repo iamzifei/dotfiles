@@ -22,7 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # Java Setting
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-17.jdk/Contents/Home
 export PATH="$JAVA_HOME/bin:$PATH"
 # export GROOVY_HOME=/opt/homebrew/opt/groovy/libexec
 # export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
@@ -64,3 +64,8 @@ unset_http_proxy() {
   unset NO_PROXY
   unset no_proxy
 }
+
+
+# Maven
+# export MAVEN_HOME="$HOME/Dev/apache-maven-3.9.1"
+# export PATH="$MAVEN_HOME/bin:$PATH"
