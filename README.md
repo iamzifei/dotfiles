@@ -40,7 +40,8 @@ brew install pnpm
 ```
 
 ## JDK
-download from [here](https://corretto.aws/downloads/latest/amazon-corretto-8-aarch64-macos-jdk.pkg)
+- download Java 8 from [here](https://corretto.aws/downloads/latest/amazon-corretto-8-aarch64-macos-jdk.pkg)
+- download Java 17 from [here](https://corretto.aws/downloads/latest/amazon-corretto-17-aarch64-macos-jdk.pkg)
 
 ## Dev Tools
 - [iTerm2](https://iterm2.com)
@@ -52,3 +53,17 @@ download from [here](https://www.sourcetreeapp.com)
 
 ### Github Desktop
 download from [here](https://desktop.github.com)
+
+### Maven
+- download [maven 3.9.1](https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip)
+- unzip and move to the $HOME/Dev
+```
+unzip apache-maven-3.9.1-bin.zip
+```
+- set path
+```
+# Maven
+export MAVEN_HOME="$HOME/Dev/apache-maven-3.9.1"
+export PATH="$MAVEN_HOME/bin:$PATH"
+```
+
