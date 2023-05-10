@@ -9,6 +9,8 @@ source $ZSH/oh-my-zsh.sh
 # Set mac user name and ssh key, if any
 export MAC_USER="james.gong"
 export SSH_KEY_NAME=""
+export NODE_VERSION="--lts"
+export COMPANY_DOMAINS=""
 
 # Python pyenv setting
 export PYENV_ROOT="$HOME/.pyenv"
@@ -35,7 +37,7 @@ case ":$PATH:" in
 esac
 
 # using npm LTS by default
-nvm use --lts
+nvm use $NODE_VERSION
 
 # functions
 setSSHKeys() {
@@ -52,7 +54,7 @@ set_http_proxy() {
   export HTTPS_PROXY=${HTTP_PROXY}
   export http_proxy=${HTTP_PROXY}
   export https_proxy=${HTTP_PROXY}
-  export NO_PROXY=127.0.0.1,localhost
+  export NO_PROXY=127.0.0.1,localhost,${COMPANY_DOMAINS}
   export no_proxy=${NO_PROXY}
 }
 
