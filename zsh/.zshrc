@@ -69,3 +69,6 @@ unset_http_proxy() {
 # Maven
 # export MAVEN_HOME="$HOME/Dev/apache-maven-3.9.1"
 # export PATH="$MAVEN_HOME/bin:$PATH"
+
+# VSCode insider
+# alias code='code-insiders'
